@@ -95,7 +95,7 @@ function buildHeatmap(data) {
     const ratingSteps = [];
 
     for (
-        let r = 0.25;
+        let r = 0.0;
         r <= 5.0;
         r += 0.25
     ) {
